@@ -1,0 +1,186 @@
+{
+  "title": "Data Analytics Dashboard",
+  "version": "1.0",
+  "kpi_cards": [
+    {
+      "title": "Total Revenue",
+      "value": "1150000",
+      "trend": "\u2191",
+      "unit": "$",
+      "status": "positive"
+    },
+    {
+      "title": "Total Orders",
+      "value": "8340",
+      "trend": "\u2191",
+      "unit": "",
+      "status": "positive"
+    },
+    {
+      "title": "Avg Order Value",
+      "value": "138",
+      "trend": "\u2193",
+      "unit": "$",
+      "status": "negative"
+    },
+    {
+      "title": "Growth Rate",
+      "value": "12.5",
+      "trend": "\u2191",
+      "unit": "%",
+      "status": "positive"
+    }
+  ],
+  "tables": [
+    {
+      "id": "table_0",
+      "title": "Results Table 1",
+      "row_count": 5,
+      "columns": [
+        "source",
+        "revenue",
+        "growth_pct"
+      ],
+      "data": [
+        {
+          "source": "Online Platform",
+          "revenue": 450000,
+          "growth_pct": 15.2
+        },
+        {
+          "source": "Retail Partners",
+          "revenue": 320000,
+          "growth_pct": 8.3
+        },
+        {
+          "source": "Direct Sales",
+          "revenue": 180000,
+          "growth_pct": -2.1
+        },
+        {
+          "source": "Affiliates",
+          "revenue": 125000,
+          "growth_pct": 12.5
+        },
+        {
+          "source": "Resellers",
+          "revenue": 75000,
+          "growth_pct": 5.8
+        }
+      ],
+      "summary": {
+        "total_rows": 5,
+        "total_columns": 3,
+        "numeric_columns": 2,
+        "text_columns": 1,
+        "null_count": "0"
+      }
+    },
+    {
+      "id": "table_1",
+      "title": "Results Table 2",
+      "row_count": 6,
+      "columns": [
+        "month",
+        "revenue",
+        "orders"
+      ],
+      "data": [
+        {
+          "month": "2024-01",
+          "revenue": 320000,
+          "orders": 1200
+        },
+        {
+          "month": "2024-02",
+          "revenue": 350000,
+          "orders": 1350
+        },
+        {
+          "month": "2024-03",
+          "revenue": 380000,
+          "orders": 1580
+        },
+        {
+          "month": "2024-04",
+          "revenue": 420000,
+          "orders": 1820
+        },
+        {
+          "month": "2024-05",
+          "revenue": 465000,
+          "orders": 2050
+        },
+        {
+          "month": "2024-06",
+          "revenue": 510000,
+          "orders": 2340
+        }
+      ],
+      "summary": {
+        "total_rows": 6,
+        "total_columns": 3,
+        "numeric_columns": 2,
+        "text_columns": 1,
+        "null_count": "0"
+      }
+    }
+  ],
+  "insights": [
+    {
+      "title": "Key Contributors Analysis",
+      "observation": "Top 3 contributors represent 21.4% of total",
+      "evidence": "Pareto analysis shows 80/20 rule - focus on vital few",
+      "impact": "80/20 rule likely applies - focus on vital few contributors",
+      "recommendation": "Prioritize top 3-5 contributors for strategic attention",
+      "confidence": "high",
+      "type": "top_contributors"
+    }
+  ],
+  "sections": [
+    {
+      "id": "summary",
+      "title": "Executive Summary",
+      "type": "summary",
+      "content": "Dashboard summary and key metrics"
+    },
+    {
+      "id": "kpis",
+      "title": "Key Performance Indicators",
+      "type": "kpi_grid",
+      "layout": "grid_4"
+    },
+    {
+      "id": "insights",
+      "title": "Top Insights",
+      "type": "insights_list",
+      "count": 1
+    },
+    {
+      "id": "tables",
+      "title": "Detailed Results",
+      "type": "tables",
+      "table_count": 2
+    },
+    {
+      "id": "recommendations",
+      "title": "Recommended Actions",
+      "type": "recommendations",
+      "source": "insights"
+    }
+  ],
+  "summary": {
+    "total_insights": 1,
+    "high_confidence": 1,
+    "medium_confidence": 0,
+    "low_confidence": 0,
+    "key_findings": [
+      "Top 3 contributors represent 21.4% of total"
+    ],
+    "recommendations": [
+      "Prioritize top 3-5 contributors for strategic attention"
+    ],
+    "risks": [],
+    "opportunities": []
+  }
+}
